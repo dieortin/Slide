@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es" manifest="manifest.appcache">
+
+<head>
+  <meta name="viewport" content="width=device-width">
+  <meta charset="utf-8">
+  <title>Simple Canvas Game</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    canvas {
+        /*border: 5px outset black;*/
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url(sky.png);
+
+      }
+  </style>
+</head>
+
+<body>
+  <canvas onclick="keyDown()" id="canvas" ></canvas>
+  <script src="game.js"></script>
+</body>
+
+</html>
